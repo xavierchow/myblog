@@ -4,7 +4,7 @@ tags:
 - vim
 ---
 # 背景
-自我感觉作为一个程序员，还算得上一个比较有效率的人，最近拜读*程序人生*的技术专栏[程序员效率指南](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=206041450&idx=1&sn=3982c8cc45d7c47f0fbc19fe8371490f&scene=0#rd), 不由得自省了一把，其他还马马虎虎，作一个VIM用了2，3年的programmer，(虽然偶尔也用WebStrom和InteliJ, 毕竟vim是自己的主力editor)，尴尬了，尽管也有neocomplete等一干plugin助力，居然没有用过sippets....亡羊补牢吧。
+自我感觉作为一个程序员，还算得上一个比较有效率的人，最近拜读*程序人生*的技术专栏[程序员效率指南](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=206041450&idx=1&sn=3982c8cc45d7c47f0fbc19fe8371490f&scene=0#rd), 不由得自省了一把，其他还马马虎虎，作一个VIM用了2，3年的programmer，(虽然偶尔也用WebStrom和InteliJ, 毕竟vim是自己的主力editor)，尴尬了，尽管也有neocomplete等一干plugin助力，居然没有用过snippets....亡羊补牢吧。
 <!-- more -->
 # Snippets Plugin for Vimer
 1. [SirVer/ultisnips](https://github.com/SirVer/ultisnips)
