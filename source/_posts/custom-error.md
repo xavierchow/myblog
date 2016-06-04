@@ -7,6 +7,7 @@ date: 2016-06-02 23:34:10
 
 # Motivation
 When your application becomes larger and more complex, you may find the default Javascript `Error` is not enough, you might want to use different Errors for different modules or customize it with self-defined properties, then it's time to extend it properly.
+<!-- more -->  
 
 # How to extend error
 
