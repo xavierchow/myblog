@@ -1,6 +1,8 @@
 title: Using Message Queues with Microservices
 date: 2016-08-06 20:41:10
 tags:
+  - Nsq
+  - Microservice
 ---
 
 ![](/images/microservices-nsq-rabbitmq.png)
