@@ -1,4 +1,4 @@
-title: format_json
+title: Format json file within vim
 tags:
   - vim
   - json
