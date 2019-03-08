@@ -4,7 +4,7 @@ tags:
   - redis 
   - docker
 ---
-
+![](https://www.airbusdefenceandspacenetherlands.nl/dsstuff/uploads/2014/10/Sentinel-1-ESA.jpg)
 
 I am a big fan of TDD, and I use docker a lot to build the dependencies(APIs, Database, etc.) for the unit test in my local development environment and CI. Everything goes well until one day our lovely DevOps guys asked me to use [Redis sentinel](https://redis.io/topics/sentinel) which provides high availability, it's a good practice, and I like the automatic failover capability. Since we always try to align the test environment to the production one, even for the local development environment, so I plan to build the Redis sentinel with docker.
 
@@ -82,8 +82,8 @@ Exposing the master, slave,  and sentinel to the external network by different p
    │                  │      │                 │       │                 │    
 │  └─────────┬────────┘      └────────┬────────┘       └────────┬────────┘  │ 
  ─ ─ ─ ─ ─ ─ ┼ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─│─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─│─ ─ ─ ─ ─ ─  
-             ●                        ●                         │             
-    ┌─────────────────┐      ┌─────────────────┐        ┌───────●─────────┐   
+             ●                        ●                         ●            
+    ┌─────────────────┐      ┌─────────────────┐        ┌─────────────────┐   
     │192.168.0.2:6379 │      │192.168.0.2:6380 │        │192.168.0.2:26379│   
     │                 │◀────▶│                 │◀──────▶│                 │   
     └─────────────────┘      └─────────────────┘        └─────────────────┘   
