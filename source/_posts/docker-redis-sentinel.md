@@ -180,7 +180,7 @@ The 4 `SENTINEL_XXX` variables are from the Dockfile, the `HOST_IP` is set as `E
 
 
 ### Last piece 
-Remember the diagram with 4 box in one IP, the `EXTERNAL_HOST` is the IP of host, apparently `localhost` won't work here. Here I craft a script to start the dockers instead of `docker-compose up`,
+Remember the diagram with 4 boxes in one IP, the `EXTERNAL_HOST` is the IP of the host, apparently `localhost` won't work here. Here I craft a script to start the dockers instead of `docker-compose up`,
 the main difference is that I feed the IP to the environment variable.
 ```sh
 #!/bin/bash
