@@ -95,7 +95,7 @@ const updated = await R.transduce(R.map(R.pipe(tranform, DB.update)), rf, [], re
 
 Of course you could use transducer as well.
 
-# speed it up<a id="sec-7"></a>
+# Speed it up<a id="sec-7"></a>
 
 If you are not satisfy with running Promise one by one, you could still use a bit `Prmose.all` to run by batch.
 
