@@ -5,6 +5,8 @@ tags:
 ---
 Occasionally I need to call HTTP API from a bare-bones environment, where we don't have `curl` or `wget`. Nowadays, it's so common that we run everything in the dockerized environment, and we are apt to use a slim docker image without many utility libraries.
 
+<!-- more -->
+
 Of course, you would say installing the `curl` is the most straightforward solution here. Still, unfortunately, we don't always have the privilege to install packages in a built container, so we need an alternative to make the HTTP request; here comes the `netcat` command, it's usually pre-installed in Linix based system out-of-box.
 
 
