@@ -3,7 +3,7 @@ date: 2022-10-30 22:57:24
 tags:
 ---
 
-Recently I have been trying to learn Haskell, one of the famous functional programming languages. When I practiced with some exercises, I found an interesting thing that the [Excercise here](https://www.seas.upenn.edu/~cis1940/spring13/hw/03-rec-poly.pdf) requires you to write the code as little as possible.
+I have been learning Haskell for a while, it's one of the famous functional programming languages. When I practiced with some exercises, I found an interesting thing that the [Excercise here](https://www.seas.upenn.edu/~cis1940/spring13/hw/03-rec-poly.pdf) requires you to write the code as little as possible.
 
 
 Well, it is not necessary to pursue the most minimalistic line of code in most cases, but in general, a smaller code base is easier to understand and maintain over time.
