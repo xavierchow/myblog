@@ -6,7 +6,7 @@ tags:
   - ADT
 ---
 
-So, what's algebraic data type?  
+So, what's algebraic data type?
 > In computer programming, especially functional programming and type theory, an algebraic data type (ADT) is a kind of composite type, i.e., a type formed by combining other types.
 
 No worries if you have a hard time to understand the definition above, we start with storytelling.
