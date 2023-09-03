@@ -1,6 +1,6 @@
 title: Performance tuning Part 1
 date: 2023-08-29 23:14:29
-tags: performance database
+tags: performance database couchbase
 ---
 
 # Prelude
